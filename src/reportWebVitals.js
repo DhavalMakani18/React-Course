@@ -11,3 +11,10 @@ const reportWebVitals = onPerfEntry => {
 };
 
 export default reportWebVitals;
+export function App() {
+  return (
+    <>
+      <Navbar />
+    </>
+  );
+}
